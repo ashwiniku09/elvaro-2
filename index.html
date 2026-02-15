@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ELVARO | Elevate Your Style</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#36597A',
+              secondary: '#CFA58C',
+              brandLight: '#F5F5F5',
+              brandDark: '#1A1A1A',
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            borderRadius: {
+              'xl': '1rem',
+              '2xl': '1.5rem',
+              '3xl': '2rem',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        scroll-behavior: smooth;
+        background-color: #FDFDFD;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .editorial-text {
+        letter-spacing: -0.05em;
+        line-height: 0.9;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
